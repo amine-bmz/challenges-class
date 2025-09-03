@@ -1,12 +1,11 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(){
-char nom[10];
-int t1, not2, not3, not4, not5;
-printf("Nom de l'etudiant:\n");
-scanf("%d" , nom);
-
-
+  int i, n;
+    printf("entrer un nomber");
+    scanf("%d" , &i);
+   for(int n = 1; n <= i; n++){
+  printf("%d\n", 2 * n);
+  }
     return 0;
 }
