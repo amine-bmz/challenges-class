@@ -9,7 +9,7 @@ printf("entrer la base :");
  printf("entrer l'exposant :");
  scanf("%d" , &n);
  for (int c = 1; c <= n; c++){
-      r *= i;
+      r = r * i;
 
  }
   printf("%d ^ %d = %d",i, n, r);
