@@ -18,10 +18,10 @@ int main()
         {
             if (mot[i] == lettre)
             {
-                mot__[i] = lettere;
+                mot__[i] = lettre;
             }
         }
-        if (mot = mot__)
+        if (mot == mot__)
         {
             printf("le mot est vree");
         }
