@@ -15,8 +15,7 @@ int main()
     scanf("%d", &nombre);
 
     if (est_pair(nombre))
-    {
-
+    {   
         printf("pair");
     }
     else
