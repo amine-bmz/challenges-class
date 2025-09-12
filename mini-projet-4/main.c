@@ -6,14 +6,15 @@ struct Etudiant
     char prenom[20];
     char nom[20];
     int notes[20];
+    
+
+};
+int main(){
     int credit;
     int age;
     int moyenne;
     int code;
-
-};
-int main()
-{
+    
     struct Etudiant[50];
     int i, j, n;
     printf("entre le nombre de les etudiant :");
