@@ -14,7 +14,7 @@ struct Etudiant
 };
 int main()
 {
-    struct etudiant[50];
+    struct Etudiant[50];
     int i, j, n;
     printf("entre le nombre de les etudiant :");
      scanf("%d", &n);
@@ -22,13 +22,13 @@ int main()
     for (i = 0; i < n; i++)
     {
         printf("entre le prenom :");
-        scanf("%s",  etudiant[i].prenom);
+        scanf("%s",  Etudiant[i].prenom);
         printf("entre le nom :");
-        scanf("%s",  etudiant[i].nom);
+        scanf("%s",  Etudiant[i].nom);
         printf("entre l'age :");
-        scanf("%d", &etudiant[i].age);
+        scanf("%d", &Etudiant[i].age);
         printf("entre le moyenne :");
-        scanf("%d", &etudiant[i].moyenne);
+        scanf("%d", &Etudiant[i].moyenne);
     }
     for (j = 0; j < n; j++)
     {
@@ -39,7 +39,7 @@ int main()
         printf("emtre le credit :");
         scanf("%d", &etudiant[j].credit);
         printf("entre la note :");
-        scanf("%d", etudiant[j].notes);
+        scanf("%d", &etudiant[j].notes[j]);
     }
       for (i = 0; i < n; i++) {
         printf("Etudiant [%d] :\n", i + 1);
