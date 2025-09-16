@@ -11,7 +11,7 @@ int main()
     while (1)
     {
         printf("%c\n", mot__);
-        printf("donner la leetre :\n");
+        printf("donner la leetre :");
         scanf("%s", lettre);
 
         for (i = 0; mot[i] != '\0' < 0; i++)
